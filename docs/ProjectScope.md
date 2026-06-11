@@ -1,4 +1,4 @@
-# Cloudberry
+# Cloudberry Porject Scope
 
 ## Project Vision
 Cloudberry is an AI-powered wellness santuary designed to help users reflect on their
