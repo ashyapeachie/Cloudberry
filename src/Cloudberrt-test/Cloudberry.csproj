@@ -7,8 +7,4 @@
     <RootNamespace>Cloudberrt_test</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Data\" />
-  </ItemGroup>
-
 </Project>
