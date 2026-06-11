@@ -10,8 +10,8 @@ namespace Cloudberry.Data
         {
         }
 
-        public DbSet<MoodEntry> MoodEntires { get; set; }
-        public DbSet<JournalEntry> JournalEntries { get; set; }
-        public DbSet<CloudCompanion> CloudCompanions { get; set; }
+        public DbSet<MoodEntry> MoodEntires {get; set;}
+        public DbSet<JournalEntry> JournalEntries {get; set;}
+        public DbSet<CloudCompanion> CloudCompanions {get; set;}
     }
 }
