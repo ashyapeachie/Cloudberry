@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Cloudberry.Models.MoodEntry>
+
+<h2>Mood History ☁️</h2>
+
+<p>
+    <a asp-action="Create">Track New Mood</a>
+</p>
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>Mood</th>
+            <th>Note</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var mood in Model)
+        {
+            <tr>
+                <td>@mood.Mood</td>
+                <td>@mood.Note</td>
+                <td>@mood.DateCreated</td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>
