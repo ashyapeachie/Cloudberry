@@ -1,8 +1,8 @@
-using Cloudberrt_test.Models;
+using Cloudberry.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Cloudberrt_test.Controllers
+namespace Cloudberry.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,4 +1,4 @@
-namespace Cloudberrt_test.Models
+namespace Cloudberry.Models
 {
     public class ErrorViewModel
     {
